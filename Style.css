@@ -99,17 +99,27 @@ section h5{
     margin-left: 465px
 }
 
+section h6{
+    background-color: lightgray; 
+    padding: 50px 50px; 
+    width: 350px;
+    float: left; 
+    display: Block;
+    clear: both; 
+    margin-left: 465px
+}
 
 section h3, 
 section h4,
-section h5 {
+section h5,
+section h6 {
     font-size: 20px;
     font-family: Arial;
     font-weight: bold;
 
 }
 
-/* CSS for the Page name */
+/* CSS for the Page background */
 
 #Web {
     position: relative;
@@ -124,7 +134,7 @@ section h5 {
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
-    z-index: -2;
+    z-index: -1;
 }
 
 
@@ -135,37 +145,20 @@ nav ul li a:hover {
     cursor: pointer; 
 }
 
-
-#WEB P1 {
+/* Image placement */
+#WEB img {
     width: 750px;
     padding: 30px;
-    border: 5px solid white;
+    border: 5px solid black;
     border-radius: 0; 
     margin-left: 60px;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
-#Web P2 {
-    width: 750px;
-    padding: 30px;
-    border: 5px solid white;
-    border-radius: 0; 
-    margin-left: 60px;
-    margin-top: 100px;
-}
-
-#Web P3 {
-    width: 750px;
-    padding: 30px;
-    border: 5px solid white;
-    border-radius: 0; 
-    margin-left: 60px;
-    margin-top: 100px;
-}
 
 
 footer {
     background-color: beige;
     padding: 20px;
-    margin-top: 400px;
+    margin-top: 150px;
 }
