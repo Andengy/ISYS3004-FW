@@ -100,13 +100,13 @@ section h4 {
 
 /* CSS for the Page name */
 
-#Home {
+#Web {
     position: relative;
     height: 150vh; 
     overflow: hidden; 
 }
 
-#Home img {
+#Web img {
     position: absolute;
     top: 0;
     left: 0;
@@ -125,7 +125,7 @@ nav ul li a:hover {
 }
 
 
-#About img {
+#Web img {
     width: 750px;
     padding: 30px;
     border: 5px solid white;
@@ -134,7 +134,7 @@ nav ul li a:hover {
     margin-top: 100px;
 }
 
-#About P2 {
+#Web P2 {
     width: 750px;
     padding: 30px;
     border: 5px solid white;
@@ -143,7 +143,7 @@ nav ul li a:hover {
     margin-top: 100px;
 }
 
-#About P3 {
+#Web P3 {
     width: 750px;
     padding: 30px;
     border: 5px solid white;
